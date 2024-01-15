@@ -79,8 +79,9 @@ a {
     margin-top: 50px;
     background-image: url(../Images/banner-img.png);
     background-repeat: no-repeat;
+    width: 100%;
     height: 500px;
-    border-radius: 16px; 
+    border-radius: 16px;
 
 }
 
@@ -118,6 +119,7 @@ input {
     font-size: 1rem;
     font-weight: 400;
 }
+
 .btn-primary {
     display: block;
     border-radius: 5px;
@@ -126,5 +128,50 @@ input {
     color: #FFF;
     font-size: 1rem;
     font-weight: 700px;
-    padding: 16px 40px 16px 64px ;
+    padding: 16px 40px 16px 64px;
+}
+
+/* tours section start */
+.tours{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+.tours-container{
+    width: 50%;
+    
+
+}
+
+.tours-title {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+
+}
+
+.tours-descrption {
+    margin-top: 24px;
+    color: var(--dark-color);
+    font-size: 1rem;   
+    font-weight: 400;
+}
+.unorder-list{
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.btn{
+    display: block;
+    border-radius: 5px;
+    background: var(--secondary-color);
+    border: 0;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800px;
+    text-align: center;
+
+}
+.tours-img{
+    width: 50%;
 }
