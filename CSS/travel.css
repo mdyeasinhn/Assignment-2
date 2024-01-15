@@ -1,0 +1,130 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Mulish:wght@400;500;600;800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Defult style here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #131318;
+    --secondary-color: #FF5400;
+    --dark-color: #424247;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /* width: 80%; */
+}
+
+/* nav style here */
+.nav-bar {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.nav-title {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    font-weight: 800;
+    width: 50%;
+}
+
+.nav-title img {
+    width: 48px;
+
+}
+
+.nav,
+.spacial {
+    color: var(--secondary-color);
+    font-weight: 800;
+
+}
+
+.nav-manu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--dark-color);
+
+}
+
+.nav-manu,
+a {
+    text-decoration: none;
+}
+
+.spacial-2 {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+/* banner style start here */
+.banner-container {
+    margin-top: 50px;
+    background-image: url(../Images/banner-img.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 16px; 
+
+}
+
+.banner-title {
+    padding-top: 100px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-descrption {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 247px 64px 247px;
+}
+
+.banner-content {
+    /* margin-top:30px ; */
+    display: flex;
+    gap: 24px;
+    margin-left: 200px;
+
+}
+
+.banner-content,
+input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 16px 80px 16px 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary {
+    display: block;
+    border-radius: 5px;
+    background: var(--secondary-color);
+    border: 0;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700px;
+    padding: 16px 40px 16px 64px ;
+}

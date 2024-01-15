@@ -1,0 +1,11 @@
+@media screen and (max-width:600px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .banner-container{
+        width: 335px;
+        height: 483px;
+   
+    }
+}
