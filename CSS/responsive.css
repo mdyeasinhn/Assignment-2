@@ -13,6 +13,12 @@
         align-items: center;
         gap: 24px;
     }
+    .body{
+        width: 90%;
+    }
+    img{
+        object-fit: cover;
+    }
 
     .banner-container {
         width: 100%;
@@ -44,7 +50,8 @@
     }
 
     .tours-img {
-        width: 100%;
+        width: 90%;
+        margin-left: 0;
     }
 
     .destination-title {
@@ -88,4 +95,28 @@
         
 
     }
+    .newsletter-right img{
+        width: 100%;
+    }
+    .tours-img img{
+        width: 100%;
+
+    }
+    .destination-row img{
+        width: 100%;
+
+    }
+    .row-container img{
+        width: 100%;
+
+    }
+    .right-content img{
+        width: 100%;
+
+
+    }
+    footer{
+        width: 100%;
+    }
+    
 }
